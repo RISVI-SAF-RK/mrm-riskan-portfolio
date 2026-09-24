@@ -49,6 +49,62 @@ export const projects = [
   },
 
   {
+  id: "smartroute-navigator",
+
+  title: "SmartRoute Navigator",
+
+  subtitle: "Smart Travel Planning and Route Navigation System",
+
+  featured: true,
+
+  category: "Full-Stack Web Application",
+
+  description:
+    "A full-stack travel planning web application designed to help users discover places, organize trips, and manage travel plans through a simple and structured interface.",
+
+  longDescription:
+    "SmartRoute Navigator is a web-based travel planning system built to make trip organization easier. The application allows users to explore destinations, browse places by category, create and manage trip plans, and interact with travel-related information through a responsive web interface. The system uses PHP for backend logic and MySQL for persistent data storage.",
+
+  features: [
+    "User registration and login",
+    "Secure user authentication",
+    "Browse travel destinations",
+    "Place and category management",
+    "Trip planning functionality",
+    "Create and manage trip plans",
+    "Travel place information",
+    "User feedback functionality",
+    "Admin management features",
+    "Database-driven content",
+    "Responsive web interface",
+    "Cloud-hosted MySQL database",
+  ],
+
+  technologies: [
+    "PHP",
+    "MySQL",
+    "mysqli",
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Bootstrap",
+    "Aiven",
+    "Vercel",
+    "Git",
+    "GitHub",
+  ],
+
+  github:
+    "https://github.com/RISVI-SAF-RK/smartroute-navigator",
+
+  live:
+    "https://smartroute-navigator.vercel.app/",
+
+  image:
+    "/projects/smartroute-navigator.jpg",
+},
+
+  {
     id: "employee-leave-management-system",
     title: "Employee Leave Management System",
     subtitle: "Secure Role-Based Leave Management Platform",
