@@ -10,7 +10,7 @@ import {
   Wrench,
 } from "lucide-react"
 
-import { projects } from "../data/projects"
+import projects from "../data/projects"
 
 function ProjectDetailsPage() {
   const { id } = useParams()

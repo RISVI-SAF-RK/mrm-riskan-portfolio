@@ -56,18 +56,21 @@ function Hero() {
           </div>
 
           {/* Role */}
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-cyan-400 sm:text-sm sm:tracking-[0.28em]">
-            Full-Stack Developer
-          </p>
+          <p className="mt-5 text-lg font-medium text-slate-300 sm:text-xl">
+  Full-Stack Developer
+  <span className="mx-2 text-cyan-400">•</span>
+  DevOps & Cloud Enthusiast
+  <span className="mx-2 text-cyan-400">•</span>
+  WordPress Developer
+</p>
 
           {/* Main Heading */}
-          <h1 className="max-w-4xl text-[2.6rem] font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl xl:text-7xl">
-            Hi, I&apos;m
-
-            <span className="mt-2 block bg-gradient-to-r from-cyan-400 via-blue-400 to-violet-400 bg-clip-text text-transparent">
-              Risvi Riskan.
-            </span>
-          </h1>
+          <h1 className="text-[2.6rem] font-bold leading-[1.05] tracking-tight text-white sm:text-5xl md:text-6xl xl:text-7xl">
+  Hi, I&apos;m{" "}
+  <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-violet-400 bg-clip-text text-transparent">
+    Risvi Riskan.
+  </span>
+</h1>
 
           {/* Secondary Heading */}
           <h2 className="mt-5 max-w-2xl text-lg font-semibold leading-7 text-slate-200 sm:text-xl sm:leading-8 md:text-2xl">
@@ -268,6 +271,20 @@ function Hero() {
                   &quot;Full-Stack Developer&quot;
                 </span>
                 ,
+              </p>
+              <p className="whitespace-nowrap pl-4 sm:pl-5">
+                <span className="text-blue-300">
+                  focus
+                </span>
+                :{" "}
+
+                <span className="text-emerald-300">
+                  &quot;DevOps & Cloud&quot;
+                </span>
+                ,
+                <span className="text-emerald-300">
+                  &quot;WordPress Development&quot;
+                </span>
               </p>
 
               <p className="whitespace-nowrap pl-4 sm:pl-5">

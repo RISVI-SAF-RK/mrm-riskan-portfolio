@@ -12,8 +12,7 @@ function Skills() {
         "CSS3",
         "Tailwind CSS",
         "Bootstrap",
-        "Flutter",
-        "WordPress",
+        "Responsive Design",
       ],
     },
 
@@ -59,27 +58,35 @@ function Skills() {
     },
 
     {
-      title: "Cloud & DevOps",
+      title: "DevOps & Cloud",
       skills: [
+        "Docker",
+        "Dockerfile",
+        "Docker Containers",
+        "Docker Images",
+        "Docker Networking",
+        "Docker Compose",
+        "Docker CLI",
+        "Environment Variables",
+        "Git",
+        "GitHub",
+        "GitHub Flow",
+        "CI/CD Fundamentals",
         "AWS",
         "Azure DevOps",
         "Railway",
-        "Firebase",
-        "Supabase",
-        "Git",
-        "GitHub",
       ],
     },
 
     {
-      title: "Tools",
+      title: "WordPress Development",
       skills: [
-        "VS Code",
-        "Postman",
-        "GitHub",
-        "Figma",
-        "Prisma",
         "WordPress",
+        "Content Management Systems",
+        "Responsive Web Design",
+        "UI/UX Design",
+        "Website Deployment",
+        "Content Management",
       ],
     },
 
@@ -91,6 +98,7 @@ function Skills() {
         "Authorization",
         "RBAC",
         "API Testing",
+        "Postman",
         "Cybersecurity Fundamentals",
         "Secure Coding",
       ],
@@ -103,7 +111,6 @@ function Skills() {
         "UML",
         "Database Design",
         "REST Architecture",
-        "Responsive Design",
         "CRUD Applications",
         "Software Testing",
         "Project Management",
@@ -118,6 +125,7 @@ function Skills() {
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
 
+        {/* Section Heading */}
         <motion.div
           initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -134,12 +142,14 @@ function Skills() {
           </h2>
 
           <p className="mt-5 leading-8 text-slate-400">
-            My technical experience covers full-stack web development,
-            programming, databases, cloud technologies, API development,
-            cybersecurity and software engineering.
+            My technical experience covers full-stack development,
+            containerization, DevOps and cloud technologies, WordPress
+            development, databases, API development, security, and
+            software engineering.
           </p>
         </motion.div>
 
+        {/* Skills Grid */}
         <div className="mt-14 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {categories.map((category, index) => (
             <motion.div

@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     id: "autoparts-hub",
     title: "AutoParts Hub",
@@ -49,60 +49,103 @@ export const projects = [
   },
 
   {
-  id: "smartroute-navigator",
+    id: "smartroute-navigator",
+    title: "SmartRoute Navigator",
+    subtitle: "Smart Travel Planning and Route Navigation System",
+    featured: true,
 
-  title: "SmartRoute Navigator",
+    category: "Full-Stack Web Application",
 
-  subtitle: "Smart Travel Planning and Route Navigation System",
+    description:
+      "A full-stack travel planning web application designed to help users discover places, organize trips, and manage travel plans through a simple and structured interface.",
 
-  featured: true,
+    longDescription:
+      "SmartRoute Navigator is a web-based travel planning system built to make trip organization easier. The application allows users to explore destinations, browse places by category, create and manage trip plans, and interact with travel-related information through a responsive web interface. The system uses PHP for backend logic and MySQL for persistent data storage.",
 
-  category: "Full-Stack Web Application",
+    features: [
+      "User registration and login",
+      "Secure user authentication",
+      "Browse travel destinations",
+      "Place and category management",
+      "Trip planning functionality",
+      "Create and manage trip plans",
+      "Travel place information",
+      "User feedback functionality",
+      "Admin management features",
+      "Database-driven content",
+      "Responsive web interface",
+      "Cloud-hosted MySQL database",
+    ],
 
-  description:
-    "A full-stack travel planning web application designed to help users discover places, organize trips, and manage travel plans through a simple and structured interface.",
+    technologies: [
+      "PHP",
+      "MySQL",
+      "mysqli",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Bootstrap",
+      "Aiven",
+      "Vercel",
+      "Git",
+      "GitHub",
+    ],
 
-  longDescription:
-    "SmartRoute Navigator is a web-based travel planning system built to make trip organization easier. The application allows users to explore destinations, browse places by category, create and manage trip plans, and interact with travel-related information through a responsive web interface. The system uses PHP for backend logic and MySQL for persistent data storage.",
+    github: "https://github.com/RISVI-SAF-RK/smartroute-navigator",
 
-  features: [
-    "User registration and login",
-    "Secure user authentication",
-    "Browse travel destinations",
-    "Place and category management",
-    "Trip planning functionality",
-    "Create and manage trip plans",
-    "Travel place information",
-    "User feedback functionality",
-    "Admin management features",
-    "Database-driven content",
-    "Responsive web interface",
-    "Cloud-hosted MySQL database",
-  ],
+    live: "https://smartroute-navigator.vercel.app/",
 
-  technologies: [
-    "PHP",
-    "MySQL",
-    "mysqli",
-    "HTML5",
-    "CSS3",
-    "JavaScript",
-    "Bootstrap",
-    "Aiven",
-    "Vercel",
-    "Git",
-    "GitHub",
-  ],
+    image: "/projects/smartroute-navigator.jpg",
+  },
 
-  github:
-    "https://github.com/RISVI-SAF-RK/smartroute-navigator",
+  {
+    id: "docker-task-management",
+    title: "Docker Task Management API",
+    subtitle: "Containerized Node.js & PostgreSQL Application",
+    featured: true,
 
-  live:
-    "https://smartroute-navigator.vercel.app/",
+    category: "DevOps & Containerization",
 
-  image:
-    "/projects/smartroute-navigator.jpg",
-},
+    description:
+      "A containerized task management application built to practice Docker, Node.js, Express.js, PostgreSQL, container networking, environment variables, and database management.",
+
+    longDescription:
+      "Docker Task Management is a practical DevOps-focused project developed to understand how application and database services can be containerized and connected using Docker. The project uses a Node.js and Express.js backend with PostgreSQL running in a separate container. Docker networking, port mapping, environment variables, Docker commands, and PostgreSQL database management were used as part of the development workflow.",
+
+    features: [
+      "Node.js and Express.js backend",
+      "PostgreSQL database",
+      "Dockerized application environment",
+      "Separate PostgreSQL container",
+      "Docker container networking",
+      "Port mapping",
+      "Environment variable configuration",
+      "Docker image and container management",
+      "REST API structure",
+      "Task database management",
+      "PostgreSQL CLI access through Docker",
+    ],
+
+    technologies: [
+      "Docker",
+      "Dockerfile",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "REST API",
+      "Docker Networking",
+      "Docker CLI",
+      "Environment Variables",
+      "Git",
+      "GitHub",
+    ],
+
+    github: "https://github.com/RISVI-SAF-RK/docker-task-app",
+
+    live: "",
+
+    image: "/projects/docker-task-management.jpg",
+  },
 
   {
     id: "employee-leave-management-system",
@@ -148,7 +191,8 @@ export const projects = [
 
     category: "Full-Stack Web Application",
 
-    github: "https://github.com/RISVI-SAF-RK/employee-leave-management-system",
+    github:
+      "https://github.com/RISVI-SAF-RK/employee-leave-management-system",
 
     live: "https://elms.up.railway.app",
 
@@ -195,7 +239,7 @@ export const projects = [
       "JSON",
     ],
 
-    category: "Mobile Application",
+    category: "Full-Stack / Mobile Application",
 
     github: "https://github.com/RISVI-SAF-RK/eldercare_lanka",
 
@@ -204,43 +248,45 @@ export const projects = [
     image: "/projects/eldercare-lanka.jpg",
   },
 
-{
-  id: "atroxe",
-  title: "Atroxe",
-  subtitle: "Responsive Business Website Built with WordPress",
+  {
+    id: "atroxe",
+    title: "Atroxe",
+    subtitle: "Responsive Business Website Built with WordPress",
 
-  description:
-    "A fully developed responsive business website created using WordPress for a development agency, focusing on professional presentation, usability, responsive design, and content management.",
+    description:
+      "A fully developed responsive business website created using WordPress for a development agency, focusing on professional presentation, usability, responsive design, and content management.",
 
-  longDescription:
-    "Atroxe is a fully developed WordPress website created for a development agency. The project focused on building a professional public-facing website with responsive layouts, clear visual hierarchy, structured service presentation, and an easy-to-manage content system. This project strengthened my practical experience in WordPress website development, responsive design, content organization, UI customization, and website deployment.",
+    longDescription:
+      "Atroxe is a fully developed WordPress website created for a development agency. The project focused on building a professional public-facing website with responsive layouts, clear visual hierarchy, structured service presentation, and an easy-to-manage content system. This project strengthened my practical experience in WordPress website development, responsive design, content organization, UI customization, and website deployment.",
 
-  features: [
-    "Fully developed using WordPress",
-    "Responsive desktop, tablet, and mobile layout",
-    "Professional business landing page",
-    "Service and company information sections",
-    "Responsive navigation",
-    "Content management through WordPress",
-    "Custom page layout and styling",
-    "Mobile-friendly user experience",
-    "Public website deployment",
-  ],
+    features: [
+      "Fully developed using WordPress",
+      "Responsive desktop, tablet, and mobile layout",
+      "Professional business landing page",
+      "Service and company information sections",
+      "Responsive navigation",
+      "Content management through WordPress",
+      "Custom page layout and styling",
+      "Mobile-friendly user experience",
+      "Public website deployment",
+    ],
 
-  technologies: [
-    "WordPress",
-    "Responsive Design",
-    "UI/UX Design",
-    "Content Management",
-    "Website Deployment",
-  ],
+    technologies: [
+      "WordPress",
+      "Responsive Design",
+      "UI/UX Design",
+      "Content Management",
+      "Website Deployment",
+    ],
 
-  category: "WordPress Web Project",
+    category: "WordPress Web Project",
 
-  github: "",
+    github: "",
 
-  live: "https://atroxe.com",
+    live: "https://atroxe.com",
 
-  image: "/projects/atroxe.jpg",
-}, 
+    image: "/projects/atroxe.jpg",
+  },
 ]
+
+export default projects
