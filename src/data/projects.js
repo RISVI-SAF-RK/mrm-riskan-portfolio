@@ -148,6 +148,64 @@ const projects = [
   },
 
   {
+  id: "quizarena",
+
+  title: "QuizArena",
+
+  subtitle: "Full-Stack Quiz Platform with Docker & CI/CD",
+
+  featured: true,
+
+  category: "Full-Stack & DevOps Project",
+
+  description:
+    "An interactive full-stack quiz platform with responsive quiz workflows, automated scoring, Docker containerization, and a GitHub-based CI/CD workflow for streamlined development and deployment.",
+
+  longDescription:
+    "QuizArena is an interactive full-stack quiz application developed to provide an engaging and responsive quiz experience. In addition to the application development, I containerized the project using Docker and implemented a CI/CD workflow with GitHub to automate parts of the build and deployment process. The project gave me practical experience combining full-stack development with containerization, version control, deployment automation, and DevOps workflows.",
+
+  features: [
+    "Interactive quiz participation",
+    "Timed quiz workflow",
+    "Automatic score calculation",
+    "Quiz result tracking",
+    "Responsive user interface",
+    "Structured question and answer flow",
+    "Dockerized application",
+    "Custom Docker image",
+    "Container-based development workflow",
+    "Git and GitHub version control",
+    "CI/CD workflow with GitHub",
+    "Automated build and deployment workflow",
+    "Production deployment with Vercel",
+  ],
+
+  technologies: [
+    "Next.js",
+    "JavaScript",
+    "Vite",
+    "Tailwind CSS",
+    "Docker",
+    "Dockerfile",
+    "Docker Images",
+    "Git",
+    "GitHub",
+    "GitHub Actions",
+    "CI/CD",
+    "Vercel",
+  ],
+
+  github:
+    "https://github.com/RISVI-SAF-RK/quizarena",
+
+  live:
+    "https://quizarena-one-gilt.vercel.app/",
+
+  image:
+    "/projects/quizarena.jpg",
+},
+
+  {
     id: "employee-leave-management-system",
     title: "Employee Leave Management System",
     subtitle: "Secure Role-Based Leave Management Platform",
