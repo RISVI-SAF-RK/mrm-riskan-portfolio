@@ -6,6 +6,7 @@ function Skills() {
       title: "Frontend Development",
       skills: [
         "React",
+        "Next.js",
         "TypeScript",
         "JavaScript",
         "HTML5",
@@ -22,6 +23,7 @@ function Skills() {
         "Node.js",
         "Express.js",
         "PHP",
+        "Django",
         "REST APIs",
         "JWT Authentication",
         "RBAC",
@@ -143,9 +145,10 @@ function Skills() {
 
           <p className="mt-5 leading-8 text-slate-400">
             My technical experience covers full-stack development,
-            containerization, DevOps and cloud technologies, WordPress
-            development, databases, API development, security, and
-            software engineering.
+            modern frontend frameworks, backend development,
+            containerization, DevOps and cloud technologies,
+            WordPress development, databases, API development,
+            security, and software engineering.
           </p>
         </motion.div>
 
@@ -180,7 +183,6 @@ function Skills() {
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   )

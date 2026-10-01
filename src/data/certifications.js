@@ -38,6 +38,27 @@ export const certifications = [
   category: "DevOps",
   featured: true,
 },
+{
+  title: "Python Django Full Stack Developer",
+  issuer: "Cursa",
+  category: "Full-Stack Development",
+  featured: true,
+  image: "/certificates/python-django-full-stack.jpeg",
+},
+{
+  title: "Next.js Mastery",
+  issuer: "FreeAcademy.ai",
+  category: "Frontend Development",
+  featured: true,
+  image: "/certificates/nextjs-mastery.jpeg",
+},
+{
+  title: "Python for Beginners",
+  issuer: "University of Moratuwa",
+  category: "Programming",
+  featured: false,
+  image: "/certificates/python-for-beginners.jpeg",
+},
   {
     title: "Cybersecurity Fundamentals",
     issuer: "IBM SkillsBuild",
